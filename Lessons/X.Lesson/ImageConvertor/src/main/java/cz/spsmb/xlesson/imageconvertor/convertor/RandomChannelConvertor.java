@@ -4,6 +4,7 @@ import cz.spsmb.xlesson.imageconvertor.model.Image;
 
 public class RandomChannelConvertor implements Convertor {
 
+
     @Override
     public String getLabel() {
         return "Random channel";
