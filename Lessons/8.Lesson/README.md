@@ -17,13 +17,13 @@ Vašim úkolem je vytvořit aplikaci dle hry Šťastných 10.
 
 - V této hře lze vsadit 1 až 10 číšel.
 - Pro případ tohoto zadání hru trochu resp. výhry trochu ulehčíme, jelikož samotná hra má spoustu možností, které jsou výherní.
- - Pro výhru musí hráč uhodnout alespoň polovinu ze vsazených číšel. (tj. 2 ze 4, 4 ze 7, 5 z 9, atd...)
- - Výhra pak bude počínána následovně:
+  - Pro výhru musí hráč uhodnout alespoň polovinu ze vsazených číšel. (tj. 2 ze 4, 4 ze 7, 5 z 9, atd...)
+  - Výhra pak bude počínána následovně:
   - např. vsadím 10 čísel, uhodnu 6 => výhra bude vklad x 10 x 6
   - vsadím 5 čísel, uhodnu 4 => výhra bude vklad x 5 x 4
 
 #### Další možné vylepšení
 Pro získání další bonusové jedničky je možné základní verzi rozšít.
 - Přidání možnosti vyběru královské čísla (ze vsazených čísel)
- - Při uhodnutí tohoto čísla a méně než potřebné poloviny ze vsazených čísel se nám pouze vrátí vklad
- - Pří uhodnutí tohoto čísla a zároveň alespoň poloviny ze vsazených čísel se nám celá výhra znásobí ještě 10x
+  - Při uhodnutí tohoto čísla a méně než potřebné poloviny ze vsazených čísel se nám pouze vrátí vklad
+  - Pří uhodnutí tohoto čísla a zároveň alespoň poloviny ze vsazených čísel se nám celá výhra znásobí ještě 10x
