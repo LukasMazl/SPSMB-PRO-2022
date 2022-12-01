@@ -15,7 +15,7 @@
 
 Vašim úkolem je vytvořit aplikaci dle hry Šťastných 10.
 
-- V této hře lze vsadit 1 až 10 číšel.
+- V této hře lze vsadit 4 až 10 číšel.
 - Pro případ tohoto zadání hru trochu resp. výhry trochu ulehčíme, jelikož samotná hra má spoustu možností, které jsou výherní.
   - Pro výhru musí hráč uhodnout alespoň polovinu ze vsazených číšel. (tj. 2 ze 4, 4 ze 7, 5 z 9, atd...)
   - Výhra pak bude počínána následovně:
