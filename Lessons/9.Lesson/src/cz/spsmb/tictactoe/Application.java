@@ -13,7 +13,7 @@ public class Application {
         Player x = new Player("Danek", 'X', 25);
         Player y = new Player("Vanek", 'O', 2500);
 
-        TicToc ticToc = new TicToc(board, new Player[]{x, y});
+        TicToc ticToc = new TicToc(board, new Player[]{x, y}, 5);
         ticToc.startGame();
     }
 }

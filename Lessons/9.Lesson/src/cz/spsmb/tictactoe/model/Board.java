@@ -3,6 +3,8 @@ package cz.spsmb.tictactoe.model;
 import java.util.Arrays;
 
 public class Board {
+    public static final char DEFAULT_MARK = ' ';
+
     private int width;
     private int height;
     private char[][] board;
@@ -11,6 +13,15 @@ public class Board {
         this.width = width;
         this.height = height;
         this.board = new char[height][width];
+        initBoard();
+    }
+
+    private void initBoard() {
+        for(int i = 0; i < board.length; i++) {
+            for(int j = 0; j < board[0].length; j++) {
+                board[i][j] = DEFAULT_MARK;
+            }
+        }
     }
 
     public int getWidth() {

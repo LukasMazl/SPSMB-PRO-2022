@@ -10,12 +10,14 @@ public class TicToc {
     private Player[] players;
     private Scanner scanner;
     private Player currentPlayer;
+    private int countMarkInRow;
     private int currentPlayerIndex;
 
-    public TicToc(Board board, Player[] players) {
+    public TicToc(Board board, Player[] players, int countMarkInRow) {
         this.board = board;
         this.players = players;
         this.currentPlayerIndex = 0;
+        this.countMarkInRow = countMarkInRow;
         this.scanner = new Scanner(System.in);
     }
 
@@ -41,7 +43,7 @@ public class TicToc {
         do {
             printBoardToConsole();
             currentPlayer = players[(currentPlayerIndex++) % players.length];
-            System.out.format("Player with name %s is on the turn.", currentPlayer.getName());
+            System.out.format("Player with name %s is on the turn.\n", currentPlayer.getName());
             int[] coord = getPlayerCoord();
             this.board.writeValue(coord, currentPlayer.getMark());
         } while (!isEnded());
@@ -51,7 +53,7 @@ public class TicToc {
         char[][] board = this.board.getBoard();
         for(int i = 0; i < board.length; i++) {
             for(int j = 0; j < board[0].length; j++) {
-                System.out.printf("|%c|", board[i][j]);
+                System.out.printf("%c|", board[i][j]);
             }
             System.out.println();
         }
