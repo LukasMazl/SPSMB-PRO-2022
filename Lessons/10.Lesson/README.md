@@ -12,4 +12,4 @@
 
 - Použití klíčového slova **instanceof**
   - keyword **instanceof** vráti true, pokud je objekt náleží do dané třídy či je daná třídy jeho rodičovská
-  - př: dog instanceof Animal
+  - př: System.out.println(dog instanceof Animal)
