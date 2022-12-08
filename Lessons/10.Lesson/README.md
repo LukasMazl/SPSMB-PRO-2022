@@ -10,3 +10,6 @@
 - Vytvořte si další dvě libovolné třídy, které budou dědit ze třídy Animal
 
 
+- Použití klíčového slova **instanceof**
+  - keyword **instanceof** vráti true, pokud je objekt náleží do dané třídy či je daná třídy jeho rodičovská
+  - př: dog instanceof Animal
