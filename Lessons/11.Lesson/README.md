@@ -3,7 +3,7 @@
 ## Téma hodiny: **Kolekce**
 
 - kolekce reprezentuje skupinu objektů, tyto objekty lze nazvat také jako elementy kolekce
-- některé kolekce mohou obsahovat duplnikátní elementy jiné zas ne
+- některé kolekce mohou obsahovat duplikátní elementy jiné zas ne
 - kolekce mohou být seřazené i neseřazené
 
 
